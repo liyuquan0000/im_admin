@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>im-admin</artifactId>
+        <groupId>com.jdd.imadmin</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>im-admin-service</artifactId>
+
+    <properties>
+        <oltu.version>1.0.0</oltu.version>
+        <wildchat.sdk.version>0.29</wildchat.sdk.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.jdd.imadmin</groupId>
+            <artifactId>im-admin-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jdd.imadmin</groupId>
+            <artifactId>im-admin-common</artifactId>
+        </dependency>
+        <!--lombok省略代码-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-jdk8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-jdk8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.oltu.oauth2</groupId>
+            <artifactId>org.apache.oltu.oauth2.authzserver</artifactId>
+            <version>${oltu.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.oltu.oauth2</groupId>
+            <artifactId>org.apache.oltu.oauth2.resourceserver</artifactId>
+            <version>${oltu.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.wildfirechat</groupId>
+            <artifactId>sdk</artifactId>
+            <version>${wildchat.sdk.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

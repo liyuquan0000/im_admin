@@ -1,0 +1,53 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+/*/target
+
+bin
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+N
+### VS Code ###
+.vscode/
+servicecard_service/src/main/java/com/hy/servicecard/backup/*
+servicecard_service/src/main/java/com/hy/servicecard/backup/*
+servicecard_service/src/main/java/com/hy/servicecard/backup/*
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000019.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000018.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000013.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000012.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000009.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000004.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000020.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000015.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000014.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000011.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000006.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000005.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000017.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000016.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000010.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000007.tmp
+data/tmp/upload_335809f4_50a5_41c2_b980_6c982c9c4510_00000003.tmp
+*.tmp

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jdd.imadmin.common.redis.RedisManager,\
+com.jdd.imadmin.common.redis.RedisConfig

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jdd.imadmin.dao.mapper.Oauth2TokenMapper">
+	<resultMap id="BaseResultMap" type="com.jdd.imadmin.dao.entity.Oauth2Token">
+		<id column="n_id" property="id" jdbcType="BIGINT"/>
+		<result column="s_client_id" property="clientId" jdbcType="VARCHAR"/>
+		<result column="s_access_token" property="accessToken" jdbcType="VARCHAR"/>
+		<result column="d_access_token_expire_time" property="accessTokenExpireTime" jdbcType="TIMESTAMP"/>
+	</resultMap>
+
+	<sql id="Base_Column_List">
+    	n_id, s_client_id, s_access_token, d_access_token_expire_time
+  	</sql>
+
+	<select id="getOauth2TokenList" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List"/>
+		from oauth2_token
+		where 1=1
+		<if test="clientId != null and clientId != ''">
+			and s_client_id = #{clientId}
+		</if>
+	</select>
+
+	<select id="selectByAccessToken" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List"/>
+		from oauth2_token
+		where s_access_token = #{accessToken}
+	</select>
+
+	<select id="selectByClientId" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List"/>
+		from oauth2_token
+		where s_client_id = #{clientId}
+	</select>
+
+</mapper>

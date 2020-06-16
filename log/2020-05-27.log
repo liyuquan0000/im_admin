@@ -1,0 +1,9 @@
+[2020-05-27 21:07:22.235] [Thread-19] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext[993,AbstractApplicationContext.java] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a0baae5: startup date [Mon May 25 15:44:14 CST 2020]; root of context hierarchy
+[2020-05-27 21:07:22.238] [Thread-19] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter[451,MBeanExporter.java] - Unregistering JMX-exposed beans on shutdown
+[2020-05-27 21:07:22.239] [Thread-19] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter[185,MBeanRegistrationSupport.java] - Unregistering JMX-exposed beans
+[2020-05-27 21:07:22.257] [Thread-19] INFO  com.anoyi.grpc.GrpcServer[64,GrpcServer.java] - gRPC server stopped.
+[2020-05-27 21:07:22.268] [Thread-19] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[208,ExecutorConfigurationSupport.java] - Shutting down ExecutorService
+[2020-05-27 21:07:22.275] [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource[1825,DruidDataSource.java] - {dataSource-1} closed
+[2020-05-27 21:07:22.275] [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource[1825,DruidDataSource.java] - {dataSource-2} closed
+[2020-05-27 21:07:22.275] [Thread-19] INFO  com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor[276,AnnotationInjectedBeanPostProcessor.java] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+[2020-05-27 21:07:22.275] [Thread-19] INFO  com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor[276,AnnotationInjectedBeanPostProcessor.java] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
